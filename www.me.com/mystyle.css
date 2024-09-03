@@ -1,0 +1,101 @@
+#head{
+    height: 100px;
+    background-color: rgb(12, 109, 59);
+    padding: 20px;
+}
+#head>img{
+    height: 100%;
+    float: left;
+    }
+#head>h1{
+    color: #efe6e6;
+    text-align: center;
+}
+#navbar{
+    padding-top: 2px;
+    height: 40px;
+    background-color: grey;
+}
+#navbar>ul>li{
+    display:inline;
+    margin-right: 20px;
+    border: solid 4px white;
+    padding: 0px 10px 0px 10px;
+}
+#navbar>ul>li>a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#navbar>ul>li:hover{
+   font-size: 40px;
+}
+#body{
+    height: 400px;
+    background: linear-gradient(green, yellow,green);
+}
+#footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.d1{
+    float: left;
+    width: 25%;
+    background-color: gainsboro;
+    height: 100%;
+}
+.d2{
+    overflow: scroll;
+    float: left;
+    width: 47%;
+    background-color: rgb(9, 123, 200);
+    height: 100%;
+}
+.d3{
+    float: left;
+    width: 25%;
+    background-color: gainsboro;
+    height: 100%;
+}
+.a{ overflow: hidden;
+    height: 48%;
+    border: solid 3px black;
+}
+.b{ height: 48%;
+    border: solid 3px black;
+}
+.form_page{
+    padding-top: 100px;
+    background-color: rgb(202, 190, 190);
+}
+.form_div{
+    margin: auto;
+    background-color: white;
+    width: 35%;
+    padding: 20px;
+    font-size: 20px;
+}
+#fn, #ln{
+    width: 100%;
+}
+#pswd, #phone{
+    width: 100%;
+}
+select{
+    width: 32%;
+}
+.Gender{
+    text-align: center;
+}
+button{
+    background-color: rgb(38, 135, 38);
+    width: 50%;
+    border-radius: 10px;
+    color: cornsilk;
+    text-align: center;
+    border: 0px;
+}
+input, select ,button{
+    margin-bottom: 10px;
+    height: 20px;
+}
